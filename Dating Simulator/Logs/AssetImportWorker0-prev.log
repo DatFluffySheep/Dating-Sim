@@ -15,11 +15,11 @@ Z:/Dating Sim Repo/Dating-Sim/Dating Simulator
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-16016
+8293
 Successfully changed project path to: Z:/Dating Sim Repo/Dating-Sim/Dating Simulator
 Z:/Dating Sim Repo/Dating-Sim/Dating Simulator
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 43.37 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 44.54 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.18f1 (a7d1c678663c)
 [Subsystems] Discovering subsystems at path Z:/Skyrim Mods and Other Shit/2020.3.18f1/Editor/Data/Resources/UnitySubsystems
@@ -35,41 +35,41 @@ Initialize mono
 Mono path[0] = 'Z:/Skyrim Mods and Other Shit/2020.3.18f1/Editor/Data/Managed'
 Mono path[1] = 'Z:/Skyrim Mods and Other Shit/2020.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'Z:/Skyrim Mods and Other Shit/2020.3.18f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56136
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56016
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: Z:/Skyrim Mods and Other Shit/2020.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: Z:/Skyrim Mods and Other Shit/2020.3.18f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: Z:/Skyrim Mods and Other Shit/2020.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001026 seconds.
+Registered in 0.001118 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 45.29 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 56.42 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.808 seconds
+- Completed reload, in  0.846 seconds
 Domain Reload Profiling:
-	ReloadAssembly (809ms)
-		BeginReloadAssembly (39ms)
+	ReloadAssembly (847ms)
+		BeginReloadAssembly (43ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (367ms)
-			LoadAssemblies (39ms)
+		EndReloadAssembly (395ms)
+			LoadAssemblies (42ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (132ms)
+			SetupTypeCache (146ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (27ms)
-			SetupLoadedEditorAssemblies (152ms)
+			SetupLoadedEditorAssemblies (165ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (45ms)
+				RefreshPlugins (56ms)
 				BeforeProcessingInitializeOnLoad (7ms)
-				ProcessInitializeOnLoadAttributes (71ms)
+				ProcessInitializeOnLoadAttributes (72ms)
 				ProcessInitializeOnLoadMethodAttributes (25ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
@@ -77,36 +77,36 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001671 seconds.
+Registered in 0.001827 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 46.24 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 47.20 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.971 seconds
+- Completed reload, in  1.031 seconds
 Domain Reload Profiling:
-	ReloadAssembly (972ms)
-		BeginReloadAssembly (124ms)
+	ReloadAssembly (1031ms)
+		BeginReloadAssembly (132ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (15ms)
-		EndReloadAssembly (799ms)
-			LoadAssemblies (71ms)
+			CreateAndSetChildDomain (16ms)
+		EndReloadAssembly (850ms)
+			LoadAssemblies (72ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (269ms)
+			SetupTypeCache (291ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (55ms)
-			SetupLoadedEditorAssemblies (294ms)
+			RebuildScriptCaches (56ms)
+			SetupLoadedEditorAssemblies (306ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (46ms)
-				BeforeProcessingInitializeOnLoad (54ms)
-				ProcessInitializeOnLoadAttributes (176ms)
+				RefreshPlugins (47ms)
+				BeforeProcessingInitializeOnLoad (62ms)
+				ProcessInitializeOnLoadAttributes (179ms)
 				ProcessInitializeOnLoadMethodAttributes (11ms)
 				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
@@ -116,14 +116,14 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.46 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2838 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 115.2 MB.
 System memory in use after: 115.4 MB.
 
 Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 3278.
-Total: 2.664700 ms (FindLiveObjects: 0.204100 ms CreateObjectMapping: 0.101500 ms MarkObjects: 2.299700 ms  DeleteObjects: 0.058500 ms)
+Total: 3.002500 ms (FindLiveObjects: 0.231800 ms CreateObjectMapping: 0.118300 ms MarkObjects: 2.589200 ms  DeleteObjects: 0.062200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -138,168 +138,242 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/FungusExamples/Attribution.txt
-  artifactKey: Guid(f35e49c61f66a4ac3a13a2f6e1424132) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FungusExamples/Attribution.txt using Guid(f35e49c61f66a4ac3a13a2f6e1424132) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5df2b90df1ff315930f1f7f07a83f776') in 0.032649 seconds 
-  Import took 0.036278 seconds .
+  path: Assets/Scenes/MainScene.unity
+  artifactKey: Guid(13607fe6ab0c31144a53c10530d5757e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene.unity using Guid(13607fe6ab0c31144a53c10530d5757e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f09da90d5c4e003f0df928e0b068a8ee') in 0.010210 seconds 
+  Import took 0.013913 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001725 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.853 seconds
+Domain Reload Profiling:
+	ReloadAssembly (853ms)
+		BeginReloadAssembly (89ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (716ms)
+			LoadAssemblies (70ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (271ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (241ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (46ms)
+				ProcessInitializeOnLoadAttributes (182ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2825 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 113.8 MB.
+System memory in use after: 114.0 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3289.
+Total: 2.924400 ms (FindLiveObjects: 0.247200 ms CreateObjectMapping: 0.111400 ms MarkObjects: 2.543300 ms  DeleteObjects: 0.021800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 521.217369 seconds.
+  path: Assets/Prefabs 1/Plane.prefab
+  artifactKey: Guid(f6334c904099646a281c44bcced432ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs 1/Plane.prefab using Guid(f6334c904099646a281c44bcced432ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cecc3620f0de90a3afd145b8b837aaa6') in 0.106178 seconds 
+  Import took 0.110252 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 390.151967 seconds.
-  path: Assets/Dating Sim UI/Border Box
-  artifactKey: Guid(03f2c466ddc129d4b94e67261b289d1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dating Sim UI/Border Box using Guid(03f2c466ddc129d4b94e67261b289d1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93e71317a852bdd0efbd8c42a0b13dbc') in 0.001083 seconds 
-  Import took 0.005513 seconds .
+  Time since last request: 0.000140 seconds.
+  path: Assets/Prefabs 1/Tile.prefab
+  artifactKey: Guid(05f02445ca26a41e9a2459dae526be3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs 1/Tile.prefab using Guid(05f02445ca26a41e9a2459dae526be3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f001774e5f19212a379ad3c1790ca74') in 0.006491 seconds 
+  Import took 0.010310 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.078418 seconds.
-  path: Assets/Dating Sim UI/Border Box/Dark-Pink-Box.png
-  artifactKey: Guid(9662d003244a39b40b89869963191084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dating Sim UI/Border Box/Dark-Pink-Box.png using Guid(9662d003244a39b40b89869963191084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5aba44dc0d6cabbe822a715266f4490e') in 0.082254 seconds 
-  Import took 0.086130 seconds .
+  Time since last request: 0.000148 seconds.
+  path: Assets/Prefabs 1/PlaneContainter.prefab
+  artifactKey: Guid(f084bfe57da4247708e3b76b28b56227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs 1/PlaneContainter.prefab using Guid(f084bfe57da4247708e3b76b28b56227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bae4c8006f7edf2a1171f272f952c137') in 0.295868 seconds 
+  Import took 0.299712 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000166 seconds.
-  path: Assets/Dating Sim UI/Border Box/Light-Pink-Box.png
-  artifactKey: Guid(0527c30ee3fef334381cbe2e9f68b32e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dating Sim UI/Border Box/Light-Pink-Box.png using Guid(0527c30ee3fef334381cbe2e9f68b32e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86a3b82a80c8de0e7472f99ebc880dcb') in 0.008176 seconds 
-  Import took 0.011737 seconds .
+  Time since last request: 22.010400 seconds.
+  path: Assets/Scenes 1/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes 1/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '796d7b9c814492fea71f6e483a9dee08') in 0.001209 seconds 
+  Import took 0.005274 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000163 seconds.
-  path: Assets/Dating Sim UI/Border Box/Green-Box.png
-  artifactKey: Guid(5b8ebd79b9f611742aa6dd68f9a060a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dating Sim UI/Border Box/Green-Box.png using Guid(5b8ebd79b9f611742aa6dd68f9a060a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6bdf118c781691d9afc1f175cd29521') in 0.008126 seconds 
-  Import took 0.011928 seconds .
+  Time since last request: 40.515418 seconds.
+  path: Assets/Sprites/16x16 sprite sheet.png
+  artifactKey: Guid(3763a5e6d6af547bda74e12c32cb2126) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/16x16 sprite sheet.png using Guid(3763a5e6d6af547bda74e12c32cb2126) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b914d322f698e5eda049ac47a9353017') in 0.048060 seconds 
+  Import took 0.052385 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001702 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.821 seconds
+Domain Reload Profiling:
+	ReloadAssembly (821ms)
+		BeginReloadAssembly (85ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (689ms)
+			LoadAssemblies (68ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (261ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (230ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (45ms)
+				ProcessInitializeOnLoadAttributes (173ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.47 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2825 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 116.9 MB.
+System memory in use after: 117.1 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3304.
+Total: 2.786800 ms (FindLiveObjects: 0.255000 ms CreateObjectMapping: 0.099900 ms MarkObjects: 2.414400 ms  DeleteObjects: 0.016900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 41.053776 seconds.
+  path: Assets/Scenes/MainScene.unity
+  artifactKey: Guid(13607fe6ab0c31144a53c10530d5757e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene.unity using Guid(13607fe6ab0c31144a53c10530d5757e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b97f3b576c4257a571dedaea46447ad') in 0.010612 seconds 
+  Import took 0.014492 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.001332 seconds.
-  path: Assets/Dating Sim UI/Border Box/Green-Box.png
-  artifactKey: Guid(5b8ebd79b9f611742aa6dd68f9a060a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dating Sim UI/Border Box/Green-Box.png using Guid(5b8ebd79b9f611742aa6dd68f9a060a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6bdf118c781691d9afc1f175cd29521') in 0.007543 seconds 
-  Import took 0.011394 seconds .
+  Time since last request: 24.494805 seconds.
+  path: Assets/Scenes/Cube.unity
+  artifactKey: Guid(e9cabe1a3fec40040a7f9cb9db92dc21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Cube.unity using Guid(e9cabe1a3fec40040a7f9cb9db92dc21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32b32daed9781ca14076e609a02d7e78') in 0.001173 seconds 
+  Import took 0.004999 seconds .
 
 ========================================================================
-Received Import Request.
-  Time since last request: 3.633079 seconds.
-  path: Assets/Dating Sim UI/Continue-Auto/Black-auto.png
-  artifactKey: Guid(8f538d9d5b8a9854e845f4c6212e4edf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dating Sim UI/Continue-Auto/Black-auto.png using Guid(8f538d9d5b8a9854e845f4c6212e4edf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e8d7a7f7ff66cda37a30d893b85dab0') in 0.007024 seconds 
-  Import took 0.010860 seconds .
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001782 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.830 seconds
+Domain Reload Profiling:
+	ReloadAssembly (831ms)
+		BeginReloadAssembly (86ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (695ms)
+			LoadAssemblies (70ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (263ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (232ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (46ms)
+				ProcessInitializeOnLoadAttributes (174ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2825 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 116.9 MB.
+System memory in use after: 117.1 MB.
 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000184 seconds.
-  path: Assets/Dating Sim UI/Continue-Auto/Pink-auto-black-shadow.png
-  artifactKey: Guid(824da3647d010294c8bb005de3a3fe24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dating Sim UI/Continue-Auto/Pink-auto-black-shadow.png using Guid(824da3647d010294c8bb005de3a3fe24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '305dd18c51156cbcc8d1f350f330d5a7') in 0.008291 seconds 
-  Import took 0.011954 seconds .
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3307.
+Total: 2.637800 ms (FindLiveObjects: 0.216200 ms CreateObjectMapping: 0.114000 ms MarkObjects: 2.293000 ms  DeleteObjects: 0.013900 ms)
 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000149 seconds.
-  path: Assets/Dating Sim UI/Continue-Auto/Dark-Pink-Auto-Pink-Shadow.png
-  artifactKey: Guid(bb29553cd5858584baaead9642b177f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dating Sim UI/Continue-Auto/Dark-Pink-Auto-Pink-Shadow.png using Guid(bb29553cd5858584baaead9642b177f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c16270d2d65f532e44ef657d2d99c40') in 0.008670 seconds 
-  Import took 0.012406 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000158 seconds.
-  path: Assets/Dating Sim UI/Continue-Auto/Pink-auto-pink-shadow.png
-  artifactKey: Guid(87e692efb13efb24bb7b7e14795d1c7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dating Sim UI/Continue-Auto/Pink-auto-pink-shadow.png using Guid(87e692efb13efb24bb7b7e14795d1c7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7e00ce7965a90d860e0b3f68b5894a0') in 0.008344 seconds 
-  Import took 0.011982 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000199 seconds.
-  path: Assets/Dating Sim UI/Continue-Auto/Dark-Pink-Auto-Black-Shadow.png
-  artifactKey: Guid(d56cdc918bfc4d84e9b9bec2fdd1a8ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dating Sim UI/Continue-Auto/Dark-Pink-Auto-Black-Shadow.png using Guid(d56cdc918bfc4d84e9b9bec2fdd1a8ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '870ef2cc90492bf7182a9bee74cca977') in 0.007886 seconds 
-  Import took 0.011648 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000151 seconds.
-  path: Assets/Dating Sim UI/Continue-Auto/Green-Auto-Black-Shadow.png
-  artifactKey: Guid(2ec5cb82e83288b42bcd865733ede6a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dating Sim UI/Continue-Auto/Green-Auto-Black-Shadow.png using Guid(2ec5cb82e83288b42bcd865733ede6a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acb4d9425c286f3e18a83dd856469ee8') in 0.007821 seconds 
-  Import took 0.011599 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000176 seconds.
-  path: Assets/Dating Sim UI/Continue-Auto/Green-Auto-Green-Shadow.png
-  artifactKey: Guid(ae8ce4ee6bdea624c8ce88fa863d54e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dating Sim UI/Continue-Auto/Green-Auto-Green-Shadow.png using Guid(ae8ce4ee6bdea624c8ce88fa863d54e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39c9ea5e8407d78447979e3342951449') in 0.007923 seconds 
-  Import took 0.011729 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001833 seconds.
-  path: Assets/Dating Sim UI/Continue-Auto/Green-Auto-Green-Shadow.png
-  artifactKey: Guid(ae8ce4ee6bdea624c8ce88fa863d54e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dating Sim UI/Continue-Auto/Green-Auto-Green-Shadow.png using Guid(ae8ce4ee6bdea624c8ce88fa863d54e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39c9ea5e8407d78447979e3342951449') in 0.007725 seconds 
-  Import took 0.011565 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.983515 seconds.
-  path: Assets/Dating Sim UI/Settings Icon/Dark-Pink-Setting.png
-  artifactKey: Guid(8c1c9999ba3faf941a4616d6235db0c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dating Sim UI/Settings Icon/Dark-Pink-Setting.png using Guid(8c1c9999ba3faf941a4616d6235db0c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2819a100c551c96ab0195e09c408c51') in 0.007715 seconds 
-  Import took 0.011464 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000203 seconds.
-  path: Assets/Dating Sim UI/Settings Icon/Pink-Setting.png
-  artifactKey: Guid(42010fd370ded8a4086a418abfbfd35a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dating Sim UI/Settings Icon/Pink-Setting.png using Guid(42010fd370ded8a4086a418abfbfd35a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2aa00195192e22ca0fc7d1bd780eae2') in 0.007800 seconds 
-  Import took 0.011330 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000149 seconds.
-  path: Assets/Dating Sim UI/Settings Icon/Green-Setting.png
-  artifactKey: Guid(7407e6a75db99864ab3eaa82b467d7b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dating Sim UI/Settings Icon/Green-Setting.png using Guid(7407e6a75db99864ab3eaa82b467d7b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6cd7eb7cb377b33890ed97038cc66be') in 0.008111 seconds 
-  Import took 0.011920 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.003348 seconds.
-  path: Assets/Dating Sim UI/Settings Icon/Green-Setting.png
-  artifactKey: Guid(7407e6a75db99864ab3eaa82b467d7b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dating Sim UI/Settings Icon/Green-Setting.png using Guid(7407e6a75db99864ab3eaa82b467d7b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6cd7eb7cb377b33890ed97038cc66be') in 0.007510 seconds 
-  Import took 0.011468 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.389708 seconds.
-  path: Assets/Dating Sim UI/Transparent/Dark-Pink-Transparent-Box.png
-  artifactKey: Guid(cb5e593e2dc39f845bdbd402cde818c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dating Sim UI/Transparent/Dark-Pink-Transparent-Box.png using Guid(cb5e593e2dc39f845bdbd402cde818c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90c3b1fb996e36e5393b29ebf1f6728d') in 0.007503 seconds 
-  Import took 0.011333 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000205 seconds.
-  path: Assets/Dating Sim UI/Transparent/Green-Transparent-Box.png
-  artifactKey: Guid(1329c0d0879b21749b38801491cd689b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dating Sim UI/Transparent/Green-Transparent-Box.png using Guid(1329c0d0879b21749b38801491cd689b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '830438b8d236f4d5a5241144d4904701') in 0.008096 seconds 
-  Import took 0.011554 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000132 seconds.
-  path: Assets/Dating Sim UI/Transparent/Pink-Transparent-Box.png
-  artifactKey: Guid(3123d6e9945c5d542998dc855b5d5270) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dating Sim UI/Transparent/Pink-Transparent-Box.png using Guid(3123d6e9945c5d542998dc855b5d5270) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dc9a7c98869c7f74ede316325ddcf57') in 0.008115 seconds 
-  Import took 0.011887 seconds .
-
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
