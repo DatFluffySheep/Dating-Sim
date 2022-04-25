@@ -15,11 +15,11 @@ Z:/Dating Sim Repo/Dating-Sim/Dating Simulator
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-32733
+4824
 Successfully changed project path to: Z:/Dating Sim Repo/Dating-Sim/Dating Simulator
 Z:/Dating Sim Repo/Dating-Sim/Dating Simulator
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 44.68 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 43.70 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.18f1 (a7d1c678663c)
 [Subsystems] Discovering subsystems at path Z:/Skyrim Mods and Other Shit/2020.3.18f1/Editor/Data/Resources/UnitySubsystems
@@ -35,95 +35,95 @@ Initialize mono
 Mono path[0] = 'Z:/Skyrim Mods and Other Shit/2020.3.18f1/Editor/Data/Managed'
 Mono path[1] = 'Z:/Skyrim Mods and Other Shit/2020.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'Z:/Skyrim Mods and Other Shit/2020.3.18f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56912
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56204
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: Z:/Skyrim Mods and Other Shit/2020.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: Z:/Skyrim Mods and Other Shit/2020.3.18f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: Z:/Skyrim Mods and Other Shit/2020.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001141 seconds.
+Registered in 0.001100 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 48.28 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 46.21 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.781 seconds
+- Completed reload, in  0.839 seconds
 Domain Reload Profiling:
-	ReloadAssembly (781ms)
-		BeginReloadAssembly (41ms)
+	ReloadAssembly (839ms)
+		BeginReloadAssembly (40ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (376ms)
+		EndReloadAssembly (367ms)
 			LoadAssemblies (40ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (135ms)
+			SetupTypeCache (131ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (27ms)
-			SetupLoadedEditorAssemblies (156ms)
+			SetupLoadedEditorAssemblies (153ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (48ms)
+				RefreshPlugins (46ms)
 				BeforeProcessingInitializeOnLoad (7ms)
-				ProcessInitializeOnLoadAttributes (71ms)
-				ProcessInitializeOnLoadMethodAttributes (25ms)
+				ProcessInitializeOnLoadAttributes (70ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001664 seconds.
+Registered in 0.001788 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-0000020504533DA0 doesn't match image Z:\Dating Sim Repo\Dating-Sim\Dating Simulator\Library\ScriptAssemblies\Assembly-CSharp.dll
+Symbol file data-00000184096B84E0 doesn't match image Z:\Dating Sim Repo\Dating-Sim\Dating Simulator\Library\ScriptAssemblies\Assembly-CSharp.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000205043C0080 doesn't match image Z:\Dating Sim Repo\Dating-Sim\Dating Simulator\Library\ScriptAssemblies\Fungus.dll
+Symbol file data-0000018409876EE0 doesn't match image Z:\Dating Sim Repo\Dating-Sim\Dating Simulator\Library\ScriptAssemblies\Fungus.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020505968F00 doesn't match image Z:\Dating Sim Repo\Dating-Sim\Dating Simulator\Library\ScriptAssemblies\FungusEditor.dll
+Symbol file data-000001840E7E7440 doesn't match image Z:\Dating Sim Repo\Dating-Sim\Dating Simulator\Library\ScriptAssemblies\FungusEditor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020500737030 doesn't match image Z:\Dating Sim Repo\Dating-Sim\Dating Simulator\Library\ScriptAssemblies\Fungus.UsfxrEditor.dll
+Symbol file data-0000018409212670 doesn't match image Z:\Dating Sim Repo\Dating-Sim\Dating Simulator\Library\ScriptAssemblies\Fungus.UsfxrEditor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000205005E02D0 doesn't match image Z:\Dating Sim Repo\Dating-Sim\Dating Simulator\Library\ScriptAssemblies\Fungus.FungusLuaJSONCheckerEditor.dll
+Symbol file data-0000018409C17440 doesn't match image Z:\Dating Sim Repo\Dating-Sim\Dating Simulator\Library\ScriptAssemblies\Fungus.FungusLuaJSONCheckerEditor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020505B0C740 doesn't match image Z:\Dating Sim Repo\Dating-Sim\Dating Simulator\Library\ScriptAssemblies\FungusExamples.dll
+Symbol file data-000001840F51E240 doesn't match image Z:\Dating Sim Repo\Dating-Sim\Dating Simulator\Library\ScriptAssemblies\FungusExamples.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020500623620 doesn't match image Z:\Dating Sim Repo\Dating-Sim\Dating Simulator\Library\ScriptAssemblies\Fungus.LineEndingsEditor.dll
+Symbol file data-000001840EEB73B0 doesn't match image Z:\Dating Sim Repo\Dating-Sim\Dating Simulator\Library\ScriptAssemblies\Fungus.LineEndingsEditor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020500D47060 doesn't match image Z:\Dating Sim Repo\Dating-Sim\Dating Simulator\Library\ScriptAssemblies\Fungus.FungusLuaEditor.dll
+Symbol file data-000001840EEBA030 doesn't match image Z:\Dating Sim Repo\Dating-Sim\Dating Simulator\Library\ScriptAssemblies\Fungus.FungusLuaEditor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 48.02 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 45.74 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.989 seconds
+- Completed reload, in  0.966 seconds
 Domain Reload Profiling:
-	ReloadAssembly (990ms)
-		BeginReloadAssembly (121ms)
+	ReloadAssembly (967ms)
+		BeginReloadAssembly (119ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (16ms)
-		EndReloadAssembly (820ms)
-			LoadAssemblies (84ms)
+			CreateAndSetChildDomain (15ms)
+		EndReloadAssembly (800ms)
+			LoadAssemblies (71ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (276ms)
-			ReleaseScriptCaches (0ms)
+			SetupTypeCache (270ms)
+			ReleaseScriptCaches (1ms)
 			RebuildScriptCaches (56ms)
-			SetupLoadedEditorAssemblies (294ms)
+			SetupLoadedEditorAssemblies (292ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (48ms)
-				BeforeProcessingInitializeOnLoad (55ms)
-				ProcessInitializeOnLoadAttributes (174ms)
-				ProcessInitializeOnLoadMethodAttributes (11ms)
+				RefreshPlugins (46ms)
+				BeforeProcessingInitializeOnLoad (53ms)
+				ProcessInitializeOnLoadAttributes (173ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
 				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -131,15 +131,15 @@ Domain Reload Profiling:
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.47 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.49 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2846 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 115.5 MB.
 System memory in use after: 115.7 MB.
 
 Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 3287.
-Total: 3.057000 ms (FindLiveObjects: 0.237600 ms CreateObjectMapping: 0.118400 ms MarkObjects: 2.638100 ms  DeleteObjects: 0.061900 ms)
+Total: 2.758300 ms (FindLiveObjects: 0.234800 ms CreateObjectMapping: 0.122300 ms MarkObjects: 2.339600 ms  DeleteObjects: 0.060800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -154,89 +154,391 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Dating Sim UI/Continue-Auto/Pink-auto-black-shadow.png
-  artifactKey: Guid(824da3647d010294c8bb005de3a3fe24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dating Sim UI/Continue-Auto/Pink-auto-black-shadow.png using Guid(824da3647d010294c8bb005de3a3fe24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dab9591ac8a2ad892fee0f2b2d2334d0') in 0.177179 seconds 
-  Import took 0.181085 seconds .
+  path: Assets/GPrefabs/Entertainer_default.prefab
+  artifactKey: Guid(aedcb400a23408846a537cb213c4cb11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GPrefabs/Entertainer_default.prefab using Guid(aedcb400a23408846a537cb213c4cb11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b1e4e4405266963910a7a32d0a7068c') in 0.156699 seconds 
+  Import took 0.160649 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000169 seconds.
-  path: Assets/Dating Sim UI/Border Box/Dialogue Box.png
-  artifactKey: Guid(8f252e653a3eaa0438260d9a0919e848) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dating Sim UI/Border Box/Dialogue Box.png using Guid(8f252e653a3eaa0438260d9a0919e848) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b26916fe215e29451f22958d772d1726') in 0.007465 seconds 
-  Import took 0.011113 seconds .
+  Time since last request: 67.590058 seconds.
+  path: Assets/GPrefabs/ChildhoodFriend_default.prefab
+  artifactKey: Guid(4962ca805a8dbf6469ffa72af3ae9edb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GPrefabs/ChildhoodFriend_default.prefab using Guid(4962ca805a8dbf6469ffa72af3ae9edb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bce246dafe181a7df93473b8bd1c5355') in 0.011229 seconds 
+  Import took 0.015520 seconds .
 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000187 seconds.
-  path: Assets/Dating Sim UI/Border Box/Dark-Pink-Box.png
-  artifactKey: Guid(9662d003244a39b40b89869963191084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dating Sim UI/Border Box/Dark-Pink-Box.png using Guid(9662d003244a39b40b89869963191084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c3ee7c0df5f9c44bf1be992b45664c6') in 0.008135 seconds 
-  Import took 0.011943 seconds .
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001798 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-00000184127CA1A0 doesn't match image Z:\Dating Sim Repo\Dating-Sim\Dating Simulator\Library\ScriptAssemblies\Assembly-CSharp.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001840FBD0010 doesn't match image Z:\Dating Sim Repo\Dating-Sim\Dating Simulator\Library\ScriptAssemblies\Fungus.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018411059030 doesn't match image Z:\Dating Sim Repo\Dating-Sim\Dating Simulator\Library\ScriptAssemblies\FungusEditor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000184127CA1A0 doesn't match image Z:\Dating Sim Repo\Dating-Sim\Dating Simulator\Library\ScriptAssemblies\Fungus.UsfxrEditor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018409C5B6B0 doesn't match image Z:\Dating Sim Repo\Dating-Sim\Dating Simulator\Library\ScriptAssemblies\Fungus.FungusLuaJSONCheckerEditor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000184136307A0 doesn't match image Z:\Dating Sim Repo\Dating-Sim\Dating Simulator\Library\ScriptAssemblies\FungusExamples.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001840EEB9090 doesn't match image Z:\Dating Sim Repo\Dating-Sim\Dating Simulator\Library\ScriptAssemblies\Fungus.LineEndingsEditor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000184097D3F10 doesn't match image Z:\Dating Sim Repo\Dating-Sim\Dating Simulator\Library\ScriptAssemblies\Fungus.FungusLuaEditor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.873 seconds
+Domain Reload Profiling:
+	ReloadAssembly (873ms)
+		BeginReloadAssembly (91ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (723ms)
+			LoadAssemblies (69ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (277ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (242ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (48ms)
+				ProcessInitializeOnLoadAttributes (181ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2825 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 116.8 MB.
+System memory in use after: 117.1 MB.
 
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3297.
+Total: 3.074600 ms (FindLiveObjects: 0.251200 ms CreateObjectMapping: 0.119900 ms MarkObjects: 2.688000 ms  DeleteObjects: 0.014900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000161 seconds.
-  path: Assets/Dating Sim UI/Continue-Auto/Black-auto.png
-  artifactKey: Guid(8f538d9d5b8a9854e845f4c6212e4edf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dating Sim UI/Continue-Auto/Black-auto.png using Guid(8f538d9d5b8a9854e845f4c6212e4edf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c188796a141937834117213124931234') in 0.008695 seconds 
-  Import took 0.012692 seconds .
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001740 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000018411DF6030 doesn't match image Z:\Dating Sim Repo\Dating-Sim\Dating Simulator\Library\ScriptAssemblies\Assembly-CSharp.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018413966030 doesn't match image Z:\Dating Sim Repo\Dating-Sim\Dating Simulator\Library\ScriptAssemblies\Fungus.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018412968400 doesn't match image Z:\Dating Sim Repo\Dating-Sim\Dating Simulator\Library\ScriptAssemblies\FungusEditor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018413397D70 doesn't match image Z:\Dating Sim Repo\Dating-Sim\Dating Simulator\Library\ScriptAssemblies\Fungus.UsfxrEditor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018409C5B070 doesn't match image Z:\Dating Sim Repo\Dating-Sim\Dating Simulator\Library\ScriptAssemblies\Fungus.FungusLuaJSONCheckerEditor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000184097DBAF0 doesn't match image Z:\Dating Sim Repo\Dating-Sim\Dating Simulator\Library\ScriptAssemblies\FungusExamples.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001840DAD2A50 doesn't match image Z:\Dating Sim Repo\Dating-Sim\Dating Simulator\Library\ScriptAssemblies\Fungus.LineEndingsEditor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000184134980B0 doesn't match image Z:\Dating Sim Repo\Dating-Sim\Dating Simulator\Library\ScriptAssemblies\Fungus.FungusLuaEditor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.865 seconds
+Domain Reload Profiling:
+	ReloadAssembly (866ms)
+		BeginReloadAssembly (90ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (727ms)
+			LoadAssemblies (68ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (278ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (245ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (47ms)
+				ProcessInitializeOnLoadAttributes (185ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2825 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 116.9 MB.
+System memory in use after: 117.1 MB.
 
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3300.
+Total: 2.678600 ms (FindLiveObjects: 0.225500 ms CreateObjectMapping: 0.123200 ms MarkObjects: 2.315100 ms  DeleteObjects: 0.014200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000136 seconds.
-  path: Assets/Dating Sim UI/Border Box/Light-Pink-Box.png
-  artifactKey: Guid(0527c30ee3fef334381cbe2e9f68b32e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dating Sim UI/Border Box/Light-Pink-Box.png using Guid(0527c30ee3fef334381cbe2e9f68b32e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1236225b48c6cd3bc6e5d3643bc6d137') in 0.008397 seconds 
-  Import took 0.012336 seconds .
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002527 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000018409842870 doesn't match image Z:\Dating Sim Repo\Dating-Sim\Dating Simulator\Library\ScriptAssemblies\Assembly-CSharp.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018410EFA010 doesn't match image Z:\Dating Sim Repo\Dating-Sim\Dating Simulator\Library\ScriptAssemblies\Fungus.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001840FD12010 doesn't match image Z:\Dating Sim Repo\Dating-Sim\Dating Simulator\Library\ScriptAssemblies\FungusEditor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000184133970E0 doesn't match image Z:\Dating Sim Repo\Dating-Sim\Dating Simulator\Library\ScriptAssemblies\Fungus.UsfxrEditor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000184128096C0 doesn't match image Z:\Dating Sim Repo\Dating-Sim\Dating Simulator\Library\ScriptAssemblies\Fungus.FungusLuaJSONCheckerEditor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000184136288C0 doesn't match image Z:\Dating Sim Repo\Dating-Sim\Dating Simulator\Library\ScriptAssemblies\FungusExamples.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001840DAD1710 doesn't match image Z:\Dating Sim Repo\Dating-Sim\Dating Simulator\Library\ScriptAssemblies\Fungus.LineEndingsEditor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000184112A6020 doesn't match image Z:\Dating Sim Repo\Dating-Sim\Dating Simulator\Library\ScriptAssemblies\Fungus.FungusLuaEditor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.843 seconds
+Domain Reload Profiling:
+	ReloadAssembly (844ms)
+		BeginReloadAssembly (88ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (708ms)
+			LoadAssemblies (69ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (266ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (236ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (45ms)
+				ProcessInitializeOnLoadAttributes (177ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2825 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 116.9 MB.
+System memory in use after: 117.2 MB.
 
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3303.
+Total: 2.840300 ms (FindLiveObjects: 0.245600 ms CreateObjectMapping: 0.124900 ms MarkObjects: 2.453200 ms  DeleteObjects: 0.015400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000132 seconds.
-  path: Assets/Dating Sim UI/Continue-Auto/Dark-Pink-Auto-Pink-Shadow.png
-  artifactKey: Guid(bb29553cd5858584baaead9642b177f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dating Sim UI/Continue-Auto/Dark-Pink-Auto-Pink-Shadow.png using Guid(bb29553cd5858584baaead9642b177f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5599af4f0728d554a5548a76b41c0239') in 0.007762 seconds 
-  Import took 0.011650 seconds .
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001746 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000018411BFD1D0 doesn't match image Z:\Dating Sim Repo\Dating-Sim\Dating Simulator\Library\ScriptAssemblies\Assembly-CSharp.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000184116AA030 doesn't match image Z:\Dating Sim Repo\Dating-Sim\Dating Simulator\Library\ScriptAssemblies\Fungus.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001840FD12010 doesn't match image Z:\Dating Sim Repo\Dating-Sim\Dating Simulator\Library\ScriptAssemblies\FungusEditor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018413393EA0 doesn't match image Z:\Dating Sim Repo\Dating-Sim\Dating Simulator\Library\ScriptAssemblies\Fungus.UsfxrEditor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001841280ACA0 doesn't match image Z:\Dating Sim Repo\Dating-Sim\Dating Simulator\Library\ScriptAssemblies\Fungus.FungusLuaJSONCheckerEditor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000184097DB1E0 doesn't match image Z:\Dating Sim Repo\Dating-Sim\Dating Simulator\Library\ScriptAssemblies\FungusExamples.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001840F37CBB0 doesn't match image Z:\Dating Sim Repo\Dating-Sim\Dating Simulator\Library\ScriptAssemblies\Fungus.LineEndingsEditor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018411253020 doesn't match image Z:\Dating Sim Repo\Dating-Sim\Dating Simulator\Library\ScriptAssemblies\Fungus.FungusLuaEditor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.849 seconds
+Domain Reload Profiling:
+	ReloadAssembly (849ms)
+		BeginReloadAssembly (89ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (710ms)
+			LoadAssemblies (71ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (266ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (238ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (46ms)
+				ProcessInitializeOnLoadAttributes (180ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2825 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 117.0 MB.
+System memory in use after: 117.2 MB.
 
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3306.
+Total: 2.927000 ms (FindLiveObjects: 0.241800 ms CreateObjectMapping: 0.120100 ms MarkObjects: 2.545500 ms  DeleteObjects: 0.018800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000180 seconds.
-  path: Assets/Dating Sim UI/Continue-Auto/Pink-auto-pink-shadow.png
-  artifactKey: Guid(87e692efb13efb24bb7b7e14795d1c7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dating Sim UI/Continue-Auto/Pink-auto-pink-shadow.png using Guid(87e692efb13efb24bb7b7e14795d1c7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '899678274f246c1a8a7e51528ad08a38') in 0.007864 seconds 
-  Import took 0.011817 seconds .
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001777 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000018411BFD1D0 doesn't match image Z:\Dating Sim Repo\Dating-Sim\Dating Simulator\Library\ScriptAssemblies\Assembly-CSharp.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018411B0C710 doesn't match image Z:\Dating Sim Repo\Dating-Sim\Dating Simulator\Library\ScriptAssemblies\Fungus.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001840FD12010 doesn't match image Z:\Dating Sim Repo\Dating-Sim\Dating Simulator\Library\ScriptAssemblies\FungusEditor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018413394B30 doesn't match image Z:\Dating Sim Repo\Dating-Sim\Dating Simulator\Library\ScriptAssemblies\Fungus.UsfxrEditor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001841280A020 doesn't match image Z:\Dating Sim Repo\Dating-Sim\Dating Simulator\Library\ScriptAssemblies\Fungus.FungusLuaJSONCheckerEditor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001841362FE90 doesn't match image Z:\Dating Sim Repo\Dating-Sim\Dating Simulator\Library\ScriptAssemblies\FungusExamples.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001840F37DEF0 doesn't match image Z:\Dating Sim Repo\Dating-Sim\Dating Simulator\Library\ScriptAssemblies\Fungus.LineEndingsEditor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000184115860A0 doesn't match image Z:\Dating Sim Repo\Dating-Sim\Dating Simulator\Library\ScriptAssemblies\Fungus.FungusLuaEditor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.846 seconds
+Domain Reload Profiling:
+	ReloadAssembly (847ms)
+		BeginReloadAssembly (87ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (712ms)
+			LoadAssemblies (71ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (268ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (238ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (45ms)
+				ProcessInitializeOnLoadAttributes (180ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2825 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 117.0 MB.
+System memory in use after: 117.2 MB.
 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000119 seconds.
-  path: Assets/Dating Sim UI/Continue-Auto/Dark-Pink-Auto-Black-Shadow.png
-  artifactKey: Guid(d56cdc918bfc4d84e9b9bec2fdd1a8ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dating Sim UI/Continue-Auto/Dark-Pink-Auto-Black-Shadow.png using Guid(d56cdc918bfc4d84e9b9bec2fdd1a8ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2483d335b25c6562b3cfa6a884c7785') in 0.007779 seconds 
-  Import took 0.011572 seconds .
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3309.
+Total: 2.922200 ms (FindLiveObjects: 0.273200 ms CreateObjectMapping: 0.128000 ms MarkObjects: 2.504500 ms  DeleteObjects: 0.015300 ms)
 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000182 seconds.
-  path: Assets/Dating Sim UI/Continue-Auto/Green-Auto-Black-Shadow.png
-  artifactKey: Guid(2ec5cb82e83288b42bcd865733ede6a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dating Sim UI/Continue-Auto/Green-Auto-Black-Shadow.png using Guid(2ec5cb82e83288b42bcd865733ede6a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f01b69ca76ab3de54b9ad3bac3a12a48') in 0.007830 seconds 
-  Import took 0.011684 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000139 seconds.
-  path: Assets/Dating Sim UI/Border Box/Green-Box.png
-  artifactKey: Guid(5b8ebd79b9f611742aa6dd68f9a060a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dating Sim UI/Border Box/Green-Box.png using Guid(5b8ebd79b9f611742aa6dd68f9a060a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac557a4e6f92b17a6234ab49ddd036d2') in 0.008306 seconds 
-  Import took 0.011938 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000136 seconds.
-  path: Assets/Dating Sim UI/Continue-Auto/Green-Auto-Green-Shadow.png
-  artifactKey: Guid(ae8ce4ee6bdea624c8ce88fa863d54e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dating Sim UI/Continue-Auto/Green-Auto-Green-Shadow.png using Guid(ae8ce4ee6bdea624c8ce88fa863d54e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e183afe95de2a11b74f20113624f8985') in 0.007797 seconds 
-  Import took 0.011468 seconds .
-
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
