@@ -14,10 +14,13 @@ namespace drnick
         // Update is called once per frame
         void Update()
         {
-            if (Input.GetMouseButton(0) && (Physics.Raycast(Camera.main.ScreenPointToRay(Input.mousePosition), out var hitData, 100)))
+            Debug.Log("object");
+            if (Input.GetMouseButtonDown(0) && (Physics.Raycast(Camera.main.ScreenPointToRay(Input.mousePosition), out var hitData, 2000)))
             {
+                Debug.Log("inside if");
                 if (hitData.transform.TryGetComponent(out Tile tile))
                 {
+                    Debug.Log("inside if2");
                     game.tileClicked(tile);
                 }
             }

@@ -90,8 +90,9 @@ namespace drnick
 
         public void tileClicked(Tile tile)
         {
-            Debug.Log("Tile Clicked - " + tile);
-            activeGrid.tileClicked(tile);
+            //omegalul
+                Debug.Log("Tile Clicked - " + tile);
+                activeGrid.tileClicked(tile);
         }
 
         public void generateGrids()

@@ -207,7 +207,11 @@ namespace drnick
 
                 // run orphan check
                 orphanCheck(tile);
-            }            
+            }
+            else
+            {
+                //continue;
+            }
             //tile.clearVirus();
         }
 
