@@ -16,4 +16,10 @@ public class MainMenu : MonoBehaviour
         Debug.Log("Closing Application...");
         Application.Quit();
     }
+
+    public void DelPrefs()
+    {
+        Debug.Log("Deleting PlayerPrefs");
+        PlayerPrefs.DeleteAll();
+    }
 }
