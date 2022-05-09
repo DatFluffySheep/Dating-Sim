@@ -71,3 +71,13 @@ crashlytics-build.properties
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
 Dating Simulator/Temp/UnityLockfile
+Dating Simulator/Logs/shadercompiler-UnityShaderCompiler.exe0.log
+Dating Simulator/Logs/shadercompiler-UnityShaderCompiler.exe1.log
+Dating Simulator/Logs/shadercompiler-UnityShaderCompiler.exe2.log
+Dating Simulator/Logs/shadercompiler-UnityShaderCompiler.exe3.log
+Dating Simulator/Logs/shadercompiler-UnityShaderCompiler.exe4.log
+Dating Simulator/Logs/shadercompiler-UnityShaderCompiler.exe5.log
+Dating Simulator/Logs/shadercompiler-UnityShaderCompiler.exe6.log
+Dating Simulator/Logs/shadercompiler-UnityShaderCompiler.exe7.log
+Dating Simulator/Library/ArtifactDB
+*.log
