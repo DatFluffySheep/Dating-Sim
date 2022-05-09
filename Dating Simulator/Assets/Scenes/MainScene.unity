@@ -27937,7 +27937,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 648775931}
+  selectedFlowchart: {fileID: 1670073272}
 --- !u!4 &243896591
 Transform:
   m_ObjectHideFlags: 1
@@ -36848,7 +36848,7 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1142292183}
+  - {fileID: 1142292196}
   selectedCommands: []
   variables: []
   description: 
@@ -63443,7 +63443,7 @@ GameObject:
   - component: {fileID: 1281747852}
   - component: {fileID: 1281747853}
   m_Layer: 0
-  m_Name: View
+  m_Name: Bar View
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -64060,6 +64060,7 @@ GameObject:
   - component: {fileID: 1670073328}
   - component: {fileID: 1670073503}
   - component: {fileID: 1670073502}
+  - component: {fileID: 1670073504}
   m_Layer: 0
   m_Name: FE Dates
   m_TagString: Untagged
@@ -64106,7 +64107,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 866.6913, y: 253.09828}
+  scrollPos: {x: 550.23596, y: 246.76875}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 602
@@ -64118,7 +64119,7 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1670073295}
+  - {fileID: 1670073296}
   selectedCommands: []
   variables:
   - {fileID: 1670073309}
@@ -66008,7 +66009,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -124.65802
+    x: -127.18967
     y: 161.58023
     width: 117.08859
     height: 40
@@ -66019,6 +66020,7 @@ MonoBehaviour:
   description: Happens in bar at night
   eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 1670073504}
   - {fileID: 1670073440}
   - {fileID: 1670073439}
   - {fileID: 1670073438}
@@ -69871,7 +69873,7 @@ MonoBehaviour:
   indentLevel: 0
   duration: 1
   fadeOut: 1
-  targetView: {fileID: 0}
+  targetView: {fileID: 1281747853}
   waitUntilFinished: 1
   fadeColor: {r: 0, g: 0, b: 0, a: 1}
   fadeTexture: {fileID: 0}
@@ -75451,6 +75453,31 @@ MonoBehaviour:
   duration: 1
   fadeOut: 1
   targetView: {fileID: 329359784}
+  waitUntilFinished: 1
+  fadeColor: {r: 0, g: 0, b: 0, a: 1}
+  fadeTexture: {fileID: 0}
+  targetCamera: {fileID: 0}
+  fadeTweenType: 4
+  orthoSizeTweenType: 4
+  posTweenType: 4
+  rotTweenType: 4
+--- !u!114 &1670073504
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1670073270}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 437f9a4e3dbc647f9bdce95308418bff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 839
+  indentLevel: 0
+  duration: 1
+  fadeOut: 1
+  targetView: {fileID: 1281747853}
   waitUntilFinished: 1
   fadeColor: {r: 0, g: 0, b: 0, a: 1}
   fadeTexture: {fileID: 0}
