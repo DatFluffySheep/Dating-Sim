@@ -14,7 +14,7 @@ namespace drnick
         // Update is called once per frame
         void Update()
         {
-            if (Input.GetMouseButton(0) && (Physics.Raycast(Camera.main.ScreenPointToRay(Input.mousePosition), out var hitData, 100)))
+            if (Input.GetMouseButton(0) && (Physics.Raycast(Camera.main.ScreenPointToRay(Input.mousePosition), out var hitData, 1000)))
             {
                 if (hitData.transform.TryGetComponent(out Tile tile))
                 {

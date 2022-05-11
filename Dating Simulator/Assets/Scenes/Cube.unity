@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.41571072, g: 0.44647342, b: 0.44826645, a: 1}
+  m_IndirectSpecularColor: {r: 0.4157186, g: 0.44634843, b: 0.44826645, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -134,6 +134,7 @@ GameObject:
   - component: {fileID: 107524407}
   - component: {fileID: 107524408}
   - component: {fileID: 107524409}
+  - component: {fileID: 107524410}
   m_Layer: 0
   m_Name: MiniGameManager
   m_TagString: Untagged
@@ -188,7 +189,7 @@ MonoBehaviour:
   tileGridMask:
     serializedVersion: 2
     m_Bits: 64
-  tickTime: 4
+  tickTime: 1
   gameStarted: 0
 --- !u!114 &107524409
 MonoBehaviour:
@@ -202,6 +203,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f7007262561e47f385b23c5de85cdc0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &107524410
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 107524406}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 743e74f10ef91e540a98ed7cedc59191, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timeRemaining: 45
+  scenename: MainScene
 --- !u!1001 &318914532
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -306,9 +321,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   theCube: {fileID: 512937525}
   up: 119
-  right: 100
+  right: 97
   down: 115
-  left: 97
+  left: 100
   rotationSpeed: 2
   rotating: 0
   currentRotation: {x: 0, y: 0, z: 0, w: 0}

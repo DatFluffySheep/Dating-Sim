@@ -69,7 +69,7 @@ public class CubeController : MonoBehaviour
         currentRotation = theCube.transform.rotation;
         float rotTime = 0;
         while (theCube.transform.rotation != destinationRotation)
-        { 
+        {
             theCube.transform.localRotation = Quaternion.Slerp(currentRotation, destinationRotation, rotTime * rotationSpeed);
 
             rotTime += Time.deltaTime;

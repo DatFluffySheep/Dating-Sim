@@ -1,7 +1,6 @@
-
-
 //
-public enum TileDirection {
+public enum TileDirection
+{
     up = 0,
     right = 1,
     down = 2,
