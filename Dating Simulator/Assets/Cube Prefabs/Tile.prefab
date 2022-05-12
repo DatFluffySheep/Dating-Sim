@@ -93,17 +93,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 7408302952927448698}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bc5089bb34f1445278e04ee00666f8b9, type: 3}
+  m_Script: {fileID: 11500000, guid: 3827504f3cc5adc4db20b81e441ba3d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   position: {x: 0, y: 0}
   state: 0
   originTile: 0
-  open: {fileID: 1310173021928012103, guid: 3763a5e6d6af547bda74e12c32cb2126, type: 3}
+  open: {fileID: -5476041829213230808, guid: 3763a5e6d6af547bda74e12c32cb2126, type: 3}
   filled: {fileID: 3685302142321223120, guid: 3763a5e6d6af547bda74e12c32cb2126, type: 3}
   one_quart: {fileID: 1310173021928012103, guid: 3763a5e6d6af547bda74e12c32cb2126, type: 3}
-  half: {fileID: 0}
-  three_quart: {fileID: 0}
+  half: {fileID: 5378511118455613470, guid: 3763a5e6d6af547bda74e12c32cb2126, type: 3}
+  three_quart: {fileID: -451874629686934546, guid: 3763a5e6d6af547bda74e12c32cb2126, type: 3}
 --- !u!65 &6906807361172050909
 BoxCollider:
   m_ObjectHideFlags: 0

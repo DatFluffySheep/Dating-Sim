@@ -182,7 +182,7 @@ MonoBehaviour:
   - faceName: face6
     grid: {fileID: 597676397}
   gridSize: {x: 30, y: 30}
-  mainCamera: {fileID: 0}
+  mainCamera: {fileID: 963194227}
   activeGrid: {fileID: 0}
   activeCheckLimiter: 30
   activeCheckCount: 0
